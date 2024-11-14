@@ -1,5 +1,5 @@
 .contact-header {
-  background-image: url("./shop1.jpg");
+  background-image: url("./clinfood4.jpg");
   min-height: 50vh;
   background-size: cover;
   background-position: center;
@@ -89,4 +89,3 @@ form textarea {
     grid-template-columns: 1fr;
   }
 }
-
