@@ -24,7 +24,7 @@ function Nav() {
   return (
     <nav className="nav">
       <Link className="logo" to="/">
-        Clin Food
+        Clin Food Palace
       </Link>
 
       <ul className={`nav-links ${navIsOpen ? "show-nav" : ""}`}>
