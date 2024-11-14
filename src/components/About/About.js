@@ -15,31 +15,29 @@ function About() {
           <div className="image1"></div>
           <div className="about-info">
             <h2>
-              Welcome to Food <br />
-              Palace Restaurant
+              Welcome to Clin <br />
+              Food Palace
             </h2>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt quasi voluptatum at
-              nostrum voluptatibus natus consequatur doloribus facilis reprehenderit quae eos, neque
-              blanditiis iusto aut! Nam nisi optio itaque ratione.
+              MORE THAN 18 RESTAURANT IN ONE PLACE Open Daily : 11:00 - 22:00.
+              Clin Food Palace Restaurant, Megamas Area is a restaurant located
+              in North Sulawesi Province, precisely in the Manado area.
             </p>
-            <button>Explore Our Tray</button>
           </div>
         </section>
         <section className="flex flex-reverse">
           <div className="image2"></div>
           <div className="about-info">
-            <h2>
-              Discover our <br />
-              Restaurant Story
-            </h2>
+            <h2>Our restaurant service</h2>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed vero similique maxime
-              optio tempore eos illo laborum ipsam. Eveniet iste nobis inventore quae aperiam
-              praesentium expedita architecto, eum mollitia quod similique, distinctio vero pariatur
-              quaerat.
+              "This restaurant offers a variety of appetizing food and drinks
+              such as: Special Rice Dishes, Refreshing Drinks, Legendary Snacks
+              with extraordinary flavors and wallet-friendly prices that you can
+              enjoy with your loved ones. You can try all of our selected
+              special menus that are guaranteed to delight your taste buds and
+              provide an unforgettable culinary experience. Come visit us soon
+              and experience the delicious sensations!"
             </p>
-            <button>Read More</button>
           </div>
         </section>
       </main>
@@ -48,4 +46,3 @@ function About() {
 }
 
 export default About;
-
