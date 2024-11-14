@@ -5,9 +5,10 @@ function Footer() {
   return (
     <footer>
       <p className="copyright">
-        Copyright &copy; 2022{" "}
+        Class frontend-D{" "}
         <span>
-          Powered by: <b className="food"> Pscon Side Hustle Project </b>
+          Powered by:{" "}
+          <b className="food"> Varel, Yeremia, Jonathan, Ryveline, Venal</b>
         </span>
       </p>
     </footer>
@@ -15,4 +16,3 @@ function Footer() {
 }
 
 export default Footer;
-
