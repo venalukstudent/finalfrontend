@@ -24,7 +24,7 @@ function Nav() {
   return (
     <nav className="nav">
       <Link className="logo" to="/">
-        Food Palace
+        Clin Food
       </Link>
 
       <ul className={`nav-links ${navIsOpen ? "show-nav" : ""}`}>
@@ -51,4 +51,3 @@ function Nav() {
 }
 
 export default Nav;
-

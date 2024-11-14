@@ -13,24 +13,24 @@ const Products = () => {
 
       {/* product layout  start*/}
       <div>
-        <h3>Our Exclusive Intercontinental dish</h3>
+        <h3>Our best Food</h3>
         <section className="products">
-          <ProductCard image="./Images/img1.jpg" productName="Chicken Shawarma" />
-          <ProductCard image="./Images/img2.jpg" productName="Stuffed Lobster" />
-          <ProductCard image="./Images/img3.jpg" productName="Burger" />
+          <ProductCard image="./Images/8.png" productName="Ayam woku belanga" />
+          <ProductCard image="./Images/2.jpg" productName="Nasi kuning" />
+          <ProductCard image="./Images/3.jpg" productName="Tinutuan" />
         </section>
 
         <h3>Our Exclusive Local dish</h3>
         <section className="products">
-          <ProductCard image="./Images/img4.jpg" productName="Steamed beans" />
-          <ProductCard image="./Images/img5.jpg" productName="Pounded Yam" />
-          <ProductCard image="./Images/img6.jpg" productName="Egusi Soup" />
+          <ProductCard image="./Images/4.png" productName="Kuah Asang" />
+          <ProductCard image="./Images/5.png" productName="Cakalang Fufu" />
+          <ProductCard image="./Images/6.png" productName="Ayam isi buluh" />
         </section>
         <h3>Our Exclusive deserts</h3>
         <section className="products">
-          <ProductCard image="./Images/img7.jpg" productName="Thin Mint Cookies" />
-          <ProductCard image="./Images/img8.jpg" productName="Chocolate Molten Cakes" />
-          <ProductCard image="./Images/img9.jpg" productName="Mocha Brownie Ice Cream Cake" />
+          <ProductCard image="./Images/9.png" productName="Es Pisang ijo" />
+          <ProductCard image="./Images/10.png" productName="Klappertart" />
+          <ProductCard image="./Images/11.png" productName="Es Brenebon" />
         </section>
       </div>
       {/* Product layout ends */}
@@ -39,4 +39,3 @@ const Products = () => {
 };
 
 export default Products;
-

@@ -8,11 +8,9 @@ const ProductCard = ({ image, productName }) => {
       </div>
       <div class="product-info">
         <h4>{productName}</h4>
-        <button>Order Now</button>
       </div>
     </div>
   );
 };
 
 export default ProductCard;
-
