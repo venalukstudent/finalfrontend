@@ -58,6 +58,10 @@ img {
   margin-bottom: 3rem;
 }
 
+.about-info p {
+  text-align: justify;
+}
+
 .about-info button {
   padding: 1.8rem 0;
   width: 250px;
@@ -80,7 +84,7 @@ img {
   }
 
   .about-info p {
-    text-align: center;
+    text-align: justify;
   }
 
   .about h1 {
