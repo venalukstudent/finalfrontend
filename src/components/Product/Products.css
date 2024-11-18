@@ -24,6 +24,12 @@
 /* PRODUCT CARD */
 .product-image {
   margin: 2rem 0;
+  transition: transform 0.3s ease; /* Smooth transition for scaling */
+}
+
+/* Hover effect for image scaling */
+.product-image:hover {
+  transform: scale(1.1); /* Scales the image up by 10% */
 }
 
 .product-info {
