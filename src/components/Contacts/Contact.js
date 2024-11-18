@@ -1,5 +1,6 @@
-import React from "react";
 import "./Contact.css";
+import React, { useEffect, useRef, useState } from "react";
+import { getDatabase, ref, child, get } from "firebase/database";
 
 function Contact() {
   return (
@@ -21,4 +22,3 @@ function Contact() {
 }
 
 export default Contact;
-
