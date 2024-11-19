@@ -73,3 +73,48 @@
     font-size: 1.3rem;
   }
 }
+
+/* General styles for product sections */
+.products {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0;
+  padding: 20px;
+  border: 2px solid transparent; /* Default border */
+  border-radius: 10px;
+  transition: border-color 0.3s ease, transform 0.3s ease;
+}
+
+/* Hover effect for product sections */
+.products:hover {
+  border-color: #ffa500; /* Orange border on hover */
+  transform: scale(1.02); /* Slight zoom effect on hover */
+}
+
+/* Header styles for product categories */
+h3 {
+  text-align: center;
+  margin: 20px 0;
+  color: #333;
+  font-weight: bold;
+}
+
+/* Styles for category titles (h3) */
+h3 {
+  text-align: center;
+  margin: 20px 0;
+  color: #333;
+  font-weight: bold;
+  display: inline-block;
+  padding: 10px 20px;
+  border: 2px solid transparent; /* Default border */
+  border-radius: 5px;
+  transition: border-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+}
+
+/* Hover effect for category titles */
+h3:hover {
+  border-color: #ffa500; /* Orange border on hover */
+  color: #ff8c00; /* Change text color to darker orange */
+  transform: scale(1.05); /* Slight zoom effect */
+}
