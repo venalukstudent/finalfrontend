@@ -4,6 +4,31 @@ import "./Home.css";
 import { getDatabase, ref, child, get } from "firebase/database";
 import firebaseApp from "../../firebase";
 
+// Loading Spinner Component
+const LoadingSpinner = () => {
+  return (
+    <div
+      style={{
+        display: "flex",
+        justifyContent: "center",
+        alignItems: "center",
+        height: "100vh",
+      }}
+    >
+      <div
+        style={{
+          border: "4px solid rgba(255, 128, 0, 0.3)",
+          borderTop: "4px solid #FF8000",
+          borderRadius: "50%",
+          width: "50px",
+          height: "50px",
+          animation: "spin 1s linear infinite",
+        }}
+      />
+    </div>
+  );
+};
+
 function Home() {
   const [isLoading, setIsLoading] = useState(true);
   const snapshot = useRef(null);
@@ -27,7 +52,7 @@ function Home() {
   }, []);
 
   if (isLoading) {
-    return <p>Fetching data....</p>;
+    return <LoadingSpinner />;
   }
 
   const post = snapshot.current;
