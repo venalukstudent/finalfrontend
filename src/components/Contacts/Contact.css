@@ -89,3 +89,18 @@ form textarea {
     grid-template-columns: 1fr;
   }
 }
+
+.btn {
+  background-color: #ff8000;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #ff6347;
+  transform: scale(1.05);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
