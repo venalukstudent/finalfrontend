@@ -104,3 +104,32 @@ form textarea {
   transform: scale(1.05);
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
+
+/* General styles for input fields */
+.contact-info input,
+textarea,
+#subject {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  transition: all 0.3s ease;
+}
+
+/* Hover effect */
+.contact-info input:hover,
+textarea:hover,
+#subject:hover {
+  border-color: #ffa500; /* Change border color to orange on hover */
+  box-shadow: 0 0 8px rgba(255, 165, 0, 0.5); /* Add a subtle orange glow */
+}
+
+s,
+textarea:focus,
+#subject:focus {
+  border-color: #ff8c00;
+  outline: none;
+  box-shadow: 0 0 10px rgba(255, 140, 0, 0.7);
+}
