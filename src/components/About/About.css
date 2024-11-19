@@ -122,3 +122,20 @@ img {
     font-size: 2rem;
   }
 }
+
+/* Base styles for images */
+.image1,
+.image2 {
+  width: 50%;
+  height: 100px;
+  background-size: cover;
+  background-position: center;
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+/* Hover effect */
+.image1:hover,
+.image2:hover {
+  transform: scale(1.05); /* Slight zoom effect */
+  filter: brightness(1.2); /* Makes the image brighter */
+}
