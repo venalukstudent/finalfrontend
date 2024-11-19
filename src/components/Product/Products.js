@@ -1,48 +1,8 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import "./Products.css";
 import ProductCard from "./ProductCard";
 
-// Loading Spinner Component
-const LoadingSpinner = () => {
-  return (
-    <div
-      style={{
-        display: "flex",
-        justifyContent: "center",
-        alignItems: "center",
-        height: "100vh",
-      }}
-    >
-      <div
-        style={{
-          border: "4px solid rgba(255, 128, 0, 0.3)",
-          borderTop: "4px solid #FF8000",
-          borderRadius: "50%",
-          width: "50px",
-          height: "50px",
-          animation: "spin 1s linear infinite",
-        }}
-      />
-    </div>
-  );
-};
-
 const Products = () => {
-  const [isLoading, setIsLoading] = useState(true);
-
-  useEffect(() => {
-    // Simulasi loading
-    const timer = setTimeout(() => {
-      setIsLoading(false);
-    }, 1000); // 1 detik
-
-    return () => clearTimeout(timer);
-  }, []);
-
-  if (isLoading) {
-    return <LoadingSpinner />;
-  }
-
   return (
     <section className="product-wrapper">
       {/* header section start */}
