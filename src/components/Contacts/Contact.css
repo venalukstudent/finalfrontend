@@ -122,8 +122,8 @@ textarea,
 .contact-info input:hover,
 textarea:hover,
 #subject:hover {
-  border-color: #ffa500; /* Change border color to orange on hover */
-  box-shadow: 0 0 8px rgba(255, 165, 0, 0.5); /* Add a subtle orange glow */
+  border-color: #ffa500;
+  box-shadow: 0 0 8px rgba(255, 165, 0, 0.5);
 }
 
 s,
